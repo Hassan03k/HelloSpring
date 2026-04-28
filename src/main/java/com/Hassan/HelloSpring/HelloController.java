@@ -13,7 +13,8 @@ public class HelloController {
 
         String name = "Hassan";
         model.addAttribute("name", name);
-
+        model.addAttribute("className", "Java");
+        model.addAttribute("classCode", 2545);
         return "hello";
     }
 
